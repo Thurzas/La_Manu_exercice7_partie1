@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Exercice 7</title>
+  <style>
+  fieldset{
+    background: rgb(200,200,110);
+    color:green;
+  }
+  fieldset label{
+    float:left;
+  }
+  fieldset input
+  {
+    float: left;
+  }
+  </style>
+  <script src="exo7.js">
+  </script>
+</head>
+<body>
+  <form onSubmit="return Hello();">
+    <fieldset class="offset-4 col-4 ">
+      <legend>Exercice 7 :</legend>
+      <label class="col-6" for="pointure">Pointure de vos chaussures : </label><input class="form-control col-6" type="text" id="pointure" name="pointure"/><br/>
+      <label class="col-6" for="naissance">Année de naissance : </label><input class="form-control col-6" type="text" id="AnneeNaissance" name="AnneeNaissance"/><br/>
+      <button  class="btn btn-success offset-5" id="submit" name ="submit">Valider</button>
+    </fieldset>
+  </form>
+</body>
+</html>
